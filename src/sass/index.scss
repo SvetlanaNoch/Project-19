@@ -1,2 +1,36 @@
-@import './common';
+@import './base/base';
+@import './base/container';
+@import './base/section';
+@import './base/common';
+@import './base/null-style';
+
+
+@import './components/logo';
+@import './components/burger-btn';
+@import './components/modal-buy-now';
+@import './components/modal-read-more';
+@import './components/modal-our-locations';
+@import './components/modal-franchise';
+@import './components/tablet-menu';
+@import './components/mobile-menu';
+@import './components/buttons';
+@import './components/social-media';
+
+
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/products';
+@import './layout/how-its-made';
+@import './layout/section-feedback';
+@import './layout/cafe-chain';
+@import './layout/footer';
+
+
+@import './utils/variables';
+@import './utils/mixins';
+@import './utils/visually-hidden';
+
 @import './example';
+
+
